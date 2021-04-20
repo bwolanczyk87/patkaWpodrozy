@@ -61,9 +61,6 @@ window.onload = function () {
 
   var lang = document.documentElement.lang;
   var path = "pl/index.json";;
-  //if (lang != "{{ .Site.Language }}") {  
-  //  path = "/"+lang+"/"+"index.json";
-  //}
   request.open("GET", path, true); // Request the JSON file created during build
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
