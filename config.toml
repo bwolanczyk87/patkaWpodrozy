@@ -3,7 +3,6 @@
 baseurl                 = "https://example.com/"
 DefaultContentLanguage  = "en"
 title                   = "Hugo Future Imperfect Slim"
-theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
 googleAnalytics         = ""

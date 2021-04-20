@@ -1,6 +1,15 @@
----
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
----
++++
+title = ""
+description = ""
+author = ""
+date = ""
+tags = [""]
+categories = [""]
+comments = true
+removeBlur = false
+[[images]]
+  src = ""
+  alt = ""
+  stretch = ""
++++
 
